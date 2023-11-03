@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <div>
+            <p>Nueva tarea</p>
+            <input type="text" id="newTask" placeholder="Agregar nueva tarea">
+            <button onclick="addTask()">Agregar</button>
+        </div>
+        <div id="taskList"></div>
+        <div>
+            <p>Total: <span id="totalTasks">0</span></p>
+            <p>Realizadas: <span id="completedTasks">0</span></p>
+        </div>
+    </div>
+    <script src="jv.js"></script>
+</body>
+</html>
